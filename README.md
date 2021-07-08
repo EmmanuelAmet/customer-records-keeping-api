@@ -1,6 +1,6 @@
 # Customer-records-keeping-api
 ## Backend service
-    - This is a backend service allows vendors of any shop to keep records of their customers about the items they purchased. The api automatically evaluates the total price for each customer before saving.
+   - This is a backend service allows vendors of any shop to keep records of their customers about the items they purchased. The api automatically evaluates the total price for each customer before saving.
 
 ## Functions the API(web service)
   - Allows users to save and manage their customer records.
@@ -77,4 +77,7 @@
   #### GET: Fetch customers records you create -> /v1/records
   #### PATCH: Update a particular customer record -> /v1/records/update/{customer_id}
   #### DELETE: Remove/Delete a particular customer -> /v1/records/delete/{customer_id}
+
+
+
 
