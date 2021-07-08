@@ -3,7 +3,7 @@ let userRouter = require('./router/user')
 let recordRouter = require('./router/record')
 
 let app = express()
-let port = process.env.port
+let port = process.env.PORT
 
 app.use(express.json())
 
