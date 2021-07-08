@@ -23,7 +23,6 @@ let recordSchema = mongoose.Schema({
         type: String,
         trim: true,
         unique: true,
-        required: true,
         lowercase: true,
         validate(value) {
             if (!validator.isEmail(value)) {
@@ -32,9 +31,9 @@ let recordSchema = mongoose.Schema({
         }
     },
     contact: {
+        required: true,
         trim: true,
         type: String,
-        required: true,
         maxlength: 15
     },
     date_purchase: {
@@ -67,7 +66,6 @@ let recordSchema = mongoose.Schema({
     address: {
         trim: true,
         type: String,
-        required: true,
         maxlength: 50
     }, 
     owner: {
