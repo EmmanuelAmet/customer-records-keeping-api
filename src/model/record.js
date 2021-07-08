@@ -53,13 +53,16 @@ let recordSchema = mongoose.Schema({
         type: Number,
         trim: true,
         required: true,
-        maxlength: 10
     },
     unit_price: {
         type: Number,
         trim: true,
         required: true,
-        maxlength: 10
+    },
+    total_price: {
+        type: Number,
+        trim: true,
+        required: true,
     },
     address: {
         trim: true,

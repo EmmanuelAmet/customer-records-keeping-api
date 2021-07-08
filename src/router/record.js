@@ -7,11 +7,14 @@ let auth = require('../middleware/auth')
 
 /* Create record */
 router.post('/v1/records/create', auth, async(req, res) => {
+    let estimated_price =  req.body.unit_price * req.body.quantity
     let record = new Record({
         ...req.body,
+        total_price: estimated_price,
         owner: req.user._id
     })
     try {
+       
         await record.save()
         res.status(201).send(record)
     } catch (e) {
