@@ -6,14 +6,14 @@
   - Allows users to save and manage their customer records.
    
 ### Functions of a user
-  - Create an account.
-  - Fetch user credentials.
-  - Update/Edit his/her credentials.
-  - Delete his/her account.
-  - Create customer details.
-  - Fetch customers records.
-  - Update/Edit customer details their create.
-  - Delete customer details they create.
+    - Create an account.
+    - Fetch user credentials.
+    - Update/Edit his/her credentials.
+    - Delete his/her account.
+    - Create customer details.
+    - Fetch customers records.
+    - Update/Edit customer details their create.
+    - Delete customer details they create.
     
 
 ### Deployment - Production Server
