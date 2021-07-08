@@ -18,7 +18,7 @@
 
 ### Deployment - Production Server
     - Heroku 
-    - MongoDB Atlas (AWS Region)
+    - MongoDB Atlas (AWS as a cloud provider)
 
 
 ### Technology, Tools, programming language, frameworks used:
