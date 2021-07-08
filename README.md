@@ -59,7 +59,7 @@
         email - required
         password - required
   #### DELETE: Delete user account -> /v1/account/users/delete/me
-      - NB: Upon successful deletion of account, all customer records created by that very user will be deleted.
+        NB: Upon successful deletion of account, all customer records created by that very user will be deleted.
 
   #### POST: Create customer record -> /v1/records/create
         Fields:
