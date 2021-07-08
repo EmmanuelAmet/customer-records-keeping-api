@@ -38,7 +38,7 @@
         * validator
 
 # Endpoints
-  ## BASE URL
+  #### BASE URL
     - Local development: http://localhost:<portNumber> 
             Example: http://localhost:3000
     - production: ...
